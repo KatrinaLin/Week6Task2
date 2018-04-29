@@ -1,0 +1,22 @@
+table {
+	border-collapse:collapse;
+	border:1px solid gray;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:100%;
+}
+
+th {
+	background:#000000;
+	color:#FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D9D9D9;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    padding:10px;
+    text-align:center;
+}
